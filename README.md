@@ -38,7 +38,7 @@ Using CNNs, however, is a technique to automatically detect and map fault zones 
 >![Results 4](https://github.com/PranjalGhildiyal/Fault-Segmentation-on-Seismic-Data-Using-CNNs/blob/main/Screenshot%20(255).png)
 
 ### Process at  a glance
->![Process](https://github.com/PranjalGhildiyal/Fault-Segmentation-on-Seismic-Data-Using-CNNs/blob/main/Process.png).png)
+>![Process](https://github.com/PranjalGhildiyal/Fault-Segmentation-on-Seismic-Data-Using-CNNs/blob/main/Process.png)
 
 
 
