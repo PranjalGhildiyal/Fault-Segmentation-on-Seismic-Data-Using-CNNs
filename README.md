@@ -8,6 +8,7 @@ Using CNNs, however, is a technique to automatically detect and map fault zones 
 > The training data consisted of 200 synthetic seismic volumes and corresponding volumes containing fault labels.
 > The validation data consisted of another 20 synthetic seismic volumes with corresponding volumes containing fault labels.
 > The training dataset was further expanded by inclusion of 5 seismic sections from [F3 dataset from the Netherlands](https://terranubis.com/datainfo/F3-Demo-2020).
+> 
 >![tiles](https://github.com/PranjalGhildiyal/Fault-Segmentation-on-Seismic-Data-Using-CNNs/blob/main/1.png)
 >
 > The labels for the seismic section were created manually using adobe illustrator.
