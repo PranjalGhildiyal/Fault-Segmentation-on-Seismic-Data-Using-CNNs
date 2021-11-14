@@ -8,3 +8,7 @@ Using CNNs, however, is a technique to automatically detect and map fault zones 
 ![Results 2](https://github.com/PranjalGhildiyal/Fault-Segmentation-on-Seismic-Data-Using-CNNs/blob/main/Screenshot%20(253).png)
 ![Results 3](https://github.com/PranjalGhildiyal/Fault-Segmentation-on-Seismic-Data-Using-CNNs/blob/main/Screenshot%20(254).png)
 ![Results 4](https://github.com/PranjalGhildiyal/Fault-Segmentation-on-Seismic-Data-Using-CNNs/blob/main/Screenshot%20(255).png)
+
+
+Several models were trained, the most accurate one of them having an accuracy of 89%.
+![Accuracy](https://github.com/PranjalGhildiyal/Fault-Segmentation-on-Seismic-Data-Using-CNNs/blob/main/Screenshot%20(256).png)
