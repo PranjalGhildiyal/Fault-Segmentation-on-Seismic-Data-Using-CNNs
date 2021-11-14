@@ -1,7 +1,7 @@
 # Fault Segmentation on Seismic Data Using CNNs
 Mapping fault planes using seismic images is a crucial and time-consuming step in hydrocarbon prospecting.
-Conventionally, this requires significant manual efforts that normally go through several iterations to optimize how the different fault planes connect with each other.​ 
-Many techniques have been developed to automate this process, such as seismic coherence estimation, edge detection, and ant-tracking, to name a few. 
+Conventionally, this requires significant manual efforts that normally go through several iterations to optimize how the different fault planes connect with each other.​  
+ Many techniques have been developed to automate this process, such as seismic coherence estimation, edge detection, and ant-tracking, to name a few. 
 However, these techniques do not take advantage of the valuable experience accumulated by the interpreters. ​ 
 Using CNNs, however, is a technique to automatically detect and map fault zones using 3D seismic images in a similar fashion to the way done by interpreters.
 ### Dataset
@@ -24,9 +24,9 @@ Using CNNs, however, is a technique to automatically detect and map fault zones 
 
 ### Accuracy
 >Several models were trained.
->To further increase the accuracy of the model, 5 crossline sections from F3 dataset from the Netherlands were taken at random. 
->Fault labels were created manually and each section was roken into a (128x128) tile and fed into the model.
->Resultant training dataset consisted of **86800** different seismic sections with their corresponding labels.
+>To further increase the accuracy of the model, 5 inline sections from F3 dataset from the Netherlands were taken at random. 
+>Fault labels were created manually and each section was broken into a (128x128) tile and fed into the model.
+>Resultant training dataset, including the synthetic dataset, consisted of **86800** different seismic sections with their corresponding labels.
 >As a result, accuracy furthur increased.
 >Final Accuracy of the model: **89.21%** 
 >![Accuracy](https://github.com/PranjalGhildiyal/Fault-Segmentation-on-Seismic-Data-Using-CNNs/blob/main/Screenshot%20(256).png)
