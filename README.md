@@ -25,11 +25,11 @@ Using CNNs, however, is a technique to automatically detect and map fault zones 
 ### Accuracy
 >Several models were trained.
 >To further increase the accuracy of the model, 5 inline sections from F3 dataset from the Netherlands were taken at random. 
->Fault labels were created manually and each section was broken into a (128x128) tile and fed into the model.
+>Fault labels were created manually and each section was broken into several (128x128) tiles and fed into the model.
 >Resultant training dataset, including the synthetic dataset, consisted of **86800** different seismic sections with their corresponding labels.
 >As a result, accuracy furthur increased.
 >Final Accuracy of the model: **89.21%** 
->![Accuracy](https://github.com/PranjalGhildiyal/Fault-Segmentation-on-Seismic-Data-Using-CNNs/blob/main/Screenshot%20(256).png)
+>![Accuracy](https://github.com/PranjalGhildiyal/Fault-Segmentation-on-Seismic-Data-Using-CNNs/blob/main/Accuracy.png)
 
 ### Results
 >The model was tested on an actual seismic dataset.
