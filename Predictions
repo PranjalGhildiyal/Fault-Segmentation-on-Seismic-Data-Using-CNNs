@@ -1,0 +1,40 @@
+'''    ***VARIABLE DESCRIPTION***
+          X_test: Test Dataset (12,128,128,128,1)
+                  Contains a test dataset containing 12 seismic sections of 128x128x128
+         
+          X_testn: Test Dataset corresponding to an 'inline'
+          
+          Ypred: Predictions on X_testn(12,128,128,1)
+                 Consists of preedictions made on the data corresponding to 'inline'
+          
+          inline: Contains the number of inline to investigate
+          
+          plot2d2: A functions to plot 2 2-D images.
+                   Plots input and corresponding predictions corresponding to fault location.
+          
+'''
+def plot2d2(gx,fx,at=1):
+    fig = plt.figure(figsize=(15,5))
+    ax = fig.add_subplot(131)
+    ax.imshow(gx,vmin=-2,vmax=2,interpolation='spline16', cmap=plt.cm.gray,aspect=at)
+    ax = fig.add_subplot(132)
+    ax.imshow(fx,vmin=0,vmax=1,cmap=plt.cm.bone,interpolation='bicubic',aspect=at)
+    plt.tight_layout()
+    plt.title('1. Data given 2. Predictions so far')
+    plt.show()
+
+
+inline = 100
+
+X_testn = X_test[:,inline,:,:,:]
+X_testn = np.transpose(X_testn, [0, 2, 1, 3])
+
+Ypred = model.predict(X_testn)
+Ypred = (Ypred1-np.min(Ypred1))/(np.max(Ypred1)-np.min(Ypred1))
+
+
+
+
+
+for i in range(12):
+    plot2d2(X_testn[i,:,:,0],Ypred[i,:,:,0] )
